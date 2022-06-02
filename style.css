@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.header-section .row{
+    display: flex;
+    justify-content: space-between;
+}
+/* -----------------header-section start---------------------- */
+/* -----------------header-section start---------------------- */
+.header-section{
+    background-color:rgba(234, 233, 233, 0.3);
+    box-shadow: 0px 10px 10px rgb(31, 30, 30);
+}
+.header-section .container .row{
+
+}
+.logo{
+    margin-top: 0;
+    display:inline-block;
+}
+img{
+   width: 150px;
+   height: 65px;
+}
+.list-item{
+    display: inline-block;
+}
+.header-section ul{
+   line-height: 400%;
+   
+}
+.header-section ul li{
+    display: inline-block;
+    /* height: 100%; */
+    border-right:1px solid rgb(6, 118, 171);
+    
+}
+.header-section ul li a{
+    color:rgb(12, 101, 235);
+    text-decoration:none;
+    font-size:20px;
+    padding:0px 30px;
+}
+/* hover-section */
+.header-section ul li a:hover{}
+/*--------------header section end-----------------*/
+/*--------------header section end-----------------*/
+/*  */
+/*  */
+/* ------------banner-section start----------------*/
+/* ---------   banner-section start-------------- -*/
+.banner-section{
+    background-image: url(./images/leading-web-design-trends.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    padding: 200px 0;
+    position: relative;
+    z-index: 1;
+    background-position: center center;
+}
+.banner-section::before{
+    content: '';
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    z-index: -1;
+    opacity: .4;
+}
+.banner-section .container{
+    
+}
+.banner-section .container .row{
+}
+.banner-section .container .row .banner-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.banner-section .container .row .banner-content h1{
+    color:#ffffff;
+    text-align: center;
+}
+.banner-section .container .row .banner-content p{
+    color:#ffffff;
+    text-align: center;
+}
+
+/* ------------banner-section end----------------*/
+/* ---------   banner-section end-------------- -*/
+
+
