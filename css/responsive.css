@@ -53,6 +53,17 @@
       .first h1{
            
       }
+      .footer-items{
+        flex-wrap: wrap;
+      }
+      .footer-left{
+          width: 100%;
+          text-align: center;
+      }
+      .footer-right{
+          width: 100%;
+          margin-top: 30px;
+      }
 }
 @media all and (max-width: 768px) {
      .header-section ul li a{
@@ -102,6 +113,15 @@
       }
       .banner-section{
           padding: 70px 0;
+      }
+      .footer-right-items{
+          flex-wrap: wrap;
+      }
+      .border{
+          width: 100%;
+          border-left: none;
+          border-top: 2px solid red;
+          text-align: center;
       }
 }
 @media all and (max-width: 500px) {
