@@ -183,4 +183,73 @@ img{
 }
 /* -----------About section End---------- */
 /* -----------About section End---------- */
+/* ---------- */
+/* ---------- */
+/* ----------Course Section Start---------- */
+/* ----------Course Section Start---------- */
+.course-section{
+    background-color: #f39c12;
+    padding: 60px 0;
+}
+.course-section .container{
+
+}
+.course-section .container  .row:nth-child(1){
+}
+.course-section .container  .row:nth-child(1) div{
+    text-align: center;
+}
+.course-section .container  .row:nth-child(1) div h1{
+    color:#fff;
+}
+.border-right{
+    border-right: 5px solid #ddd;
+}
+input,label{
+    display: block;
+}
+label{
+    font-size: 20px;
+}
+.course-items h1{
+    padding: 10px 0;
+}
+.course-items{
+    display: flex;
+    justify-content: space-between;
+}
+.course-section .container .row:nth-child(2) {
+    padding: 40px 0px;
+}
+.left-content{
+    width: 65%;
+}
+.right-content {
+    width: 30%;
+    align-self: center;
+}
+input, label{
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+}
+textarea{
+    height: 100px;
+    width: 100%;
+}
+.btn{
+    width: 40%;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 1s;
+    margin: 0 auto;
+    margin-top: 10px;
+    border: none;
+}
+.btn:hover{
+    background-color: rgb(7, 100, 249);
+    color: white;
+}
+/* ---------Course Section End--------- */
+/* ---------Course Section End--------- */
 
