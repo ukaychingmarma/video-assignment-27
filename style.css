@@ -26,7 +26,7 @@
 }
 img{
    width: 150px;
-   height: 65px;
+   height: 62px;
 }
 .list-item{
     display: inline-block;
@@ -96,5 +96,91 @@ img{
 
 /* ------------banner-section end----------------*/
 /* ---------   banner-section end-------------- -*/
-
+/*  */
+/*  */
+/* -----------About section start---------- */
+/* -----------About section start---------- */
+.about-section{
+    background-color:#bdc3c7;
+    padding-bottom:50px;
+}
+.about-section .container{}
+/* first-row */
+.about-section .container .row:nth-child(1){
+    text-align: center;
+    padding:50px 0px;
+}
+.about-section .container .about-content{
+}
+.about-section .container .about-content h1{
+    
+}
+.about-section .container .about-content p{
+    
+}
+/* first-row-end */
+/* second-row */
+.about-section .row:nth-child(2){
+   
+}
+.about-section .row:nth-child(2) .first-col{
+    margin-left: 150px;
+    font-size: 30px;
+    color: white;
+}
+.about-section .row:nth-child(2) .second-col{
+    margin-left: 100px;
+    font-size: 30px;
+    color: white;
+}
+.about-section .row:nth-child(2) .third-col{
+    margin-left: 50px;
+    font-size: 30px;
+    color: white;
+}
+/* third-row start */
+.about-section{
+    
+}
+.about-section .row:nth-child(3){
+    text-align: center;
+    padding: 0%;
+}
+.about-section .row:nth-child(3) .about-jillur{
+    background-color: red;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px 5px rgb(0, 166, 255);
+} 
+.about-section .row:nth-child(3) .about-jillur:hover{
+    transition: 1s;
+    transform: scale(1.1);
+}
+.about-section .row:nth-child(3) .about-jillur .first{
+    color:#fff;
+}
+.about-section .row:nth-child(3) .about-jillur .second{
+    background-color: #ffffff;
+    border-radius: 70% 0% 15px 15px;
+    transition: 1s;
+}
+.about-section .row:nth-child(3) .about-jillur .second:hover{
+    background-color:rgb(255, 124, 2);
+}
+.card-items{
+    display: flex;
+    justify-content: space-between;
+}
+.about-jillur{
+    width: 30%;
+}
+.second{
+    padding: 50px;
+    height:300px
+}
+.first{
+    height: 50%;
+}
+/* -----------About section End---------- */
+/* -----------About section End---------- */
 

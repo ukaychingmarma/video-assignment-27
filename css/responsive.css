@@ -47,6 +47,12 @@
       .banner-section{
           padding: 130px 0;
       }
+      .second{
+          height:200px
+      }
+      .first h1{
+           
+      }
 }
 @media all and (max-width: 768px) {
      .header-section ul li a{
@@ -63,6 +69,14 @@
       }
       .banner-section{
           padding: 90px 0;
+      }
+      .card-items{
+           flex-wrap: wrap;
+           align-content: space-around;
+      }
+      .about-jillur{
+           width: 100%;
+           margin-top: 20px;
       }
 }
 @media all and (max-width: 668px) {
